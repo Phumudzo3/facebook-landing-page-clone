@@ -62,14 +62,17 @@ margin-top:55px;
 .log-in{
     background: #1877f2;
     font-size: 20px;color: white;
+   
 }
 .create-new{
     padding: 1px 8px;
     background-color: #42b72a;
     color: #fff;
-    width: 200px;
+    width: 200px; 
     border-radius: 6px;
-    line-height: 48px;margin-left:70px;margin-top: 20px;
+    line-height: 48px;
+    margin-left:100px;
+    margin-top: 20px;
 }
 .login-form form p{text-align: center;margin-top:18px;}
 
@@ -77,15 +80,40 @@ margin-top:55px;
     background: #e8f0fe;
 
 }
-section{
+.paragraph{
     margin-top: 20px;
 }
-section span{font-size: 12px;
-justify-content: center;}
+.paragraph span{font-size: 12px;
+margin-left: 60px;}
 
 
 
 .footer{
-    height: calc( 100% - 90vh);
-    background: red;
+    height: 240px;
+    width: 100%;
+    
+}
+.lang-section,.section-more,.line{
+    padding-top: 5px;
+    width: 70%;margin-right: auto;
+    margin-left: auto;
+    color: #8a8d91;
+    font-size: 12px;
+   
+}
+.lang-section span{
+    display: inline-block;
+    padding :2px;
+
+}
+.material-icons{
+   padding: 0px 8px;
+   color: #8a8d91;height: 2px;
+}
+.line{border-bottom: 1px solid #8a8d91;}
+.section-more span{
+    display: inline-block;
+    padding :6.6px;
+
+
 }
