@@ -1,0 +1,33 @@
+@media(max-width: 768px) and (min-width:480px){
+    .header{
+        flex-direction: column ;justify-content: center;
+    }
+    .nav,.login-form{
+    margin-left: auto;
+    margin-right: auto;
+}
+    .nav{
+        width:55vw;
+      text-align: center;
+      height: 25vh;
+      
+    }
+    .nav img{margin-top: 6px;
+    width: 305px;
+    }
+    .nav p{
+        margin-top: 5px;;
+font-size: 24px;
+    }
+    .login-form{
+        position: relative;bottom:50px;
+    }
+    .lang-section,.line,.section-more{
+        width:80vw;
+    }
+    .lang-section span{
+        display: inline-block;
+        padding :1px;
+    }
+    
+}

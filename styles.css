@@ -48,7 +48,7 @@ margin-top:55px;
 
 }
 .login-form input,.log-in{
-    border-radius: 6px;
+    border-radius: 5px;
  font-size: 17px;
     padding: 14px 16px;
     width: 368px;
@@ -89,7 +89,7 @@ margin-left: 60px;}
 
 
 .footer{
-    height: 240px;
+    height: 200px;
     width: 100%;
     
 }
@@ -113,7 +113,7 @@ margin-left: 60px;}
 .line{border-bottom: 1px solid #8a8d91;}
 .section-more span{
     display: inline-block;
-    padding :6.6px;
+    padding:4px 0px 0px 6.6px;
 
 
 }
