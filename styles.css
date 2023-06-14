@@ -85,11 +85,11 @@ margin-top:55px;
 }
 .paragraph span{font-size: 12px;
 margin-left: 60px;}
-
+g
 
 
 .footer{
-    height: 200px;
+    height: 200gitpx;
     width: 100%;
     
 }
@@ -101,15 +101,23 @@ margin-left: 60px;}
     font-size: 12px;
    
 }
+.lang-section {display: flex;}
 .lang-section span{
     display: inline-block;
-    padding :2px;
+    padding :6px;
 
 }
 .material-icons{
-   padding: 0px 8px;
-   color: #8a8d91;height: 2px;
+   font-size: 20px;
+   color: #8a8d91;height: 1px;
 }
+
+.more{
+  padding:-2px 5px;
+  background: #f5f6f7;
+}
+
+
 .line{border-bottom: 1px solid #8a8d91;}
 .section-more span{
     display: inline-block;
