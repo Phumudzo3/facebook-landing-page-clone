@@ -108,13 +108,14 @@ g
 
 }
 .material-icons{
-   font-size: 20px;
+   font-size: 18px;
    color: #8a8d91;height: 1px;
 }
 
 .more{
-  padding:-2px 5px;
+  padding-bottom:2px;
   background: #f5f6f7;
+  border: #8a8d91;
 }
 
 
