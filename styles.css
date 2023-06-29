@@ -2,6 +2,9 @@
 box-sizing: border-box; padding: 0px;
 margin: 0px;text-decoration: none;
 }
+html,body{
+    overflow-x: hidden;
+}
 .header{
     background: #f0f2f5;
     height: 100vh;
@@ -74,7 +77,10 @@ margin-top:55px;
     margin-left:100px;
     margin-top: 20px;
 }
-.login-form form p{text-align: center;margin-top:18px;}
+.login-form form p{
+    text-align: center;
+    margin-top:18px;
+}
 
 #email{
     background: #e8f0fe;
@@ -101,10 +107,13 @@ g
     font-size: 12px;
    
 }
-.lang-section {display: flex;}
-.lang-section span{
+.lang-section {
     display: inline-block;
-    padding :6px;
+    padding:4px 0px 0px 6.6px;
+}
+lang-section span{
+   display: inline-block;
+    padding-left: 15px;
 
 }
 .material-icons{
@@ -116,6 +125,7 @@ g
   padding-bottom:2px;
   background: #f5f6f7;
   border: #8a8d91;
+  margin-left: 20px;
 }
 
 

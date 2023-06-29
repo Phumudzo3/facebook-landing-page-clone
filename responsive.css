@@ -1,33 +1,82 @@
-@media(max-width: 768px) and (min-width:480px){
-    .header{
-        flex-direction: column ;justify-content: center;
+@media  screen and (max-width: 480px) {
+    html,body{
+position: static;
     }
-    .nav,.login-form{
-    margin-left: auto;
-    margin-right: auto;
+   .header{
+    display: block;
+    justify-content: center;
+    width: 100%;
+    height: 120vh;
+   
+   } 
+
+   .nav{
+    width: fit-content;
+    position: relative;
+    bottom: 36px;
+   
+    margin: auto;
+    text-align: center;
+   }
+   .nav img{
+    margin-top: 2px;
+   }
+   .login-form{
+    width: fit-content;
+    margin: auto;
+    position: relative;
+    bottom: 90px;
+   }
+   .footer{
+    margin-top: 0px;
+    background: pnk;
 }
-    .nav{
-        width:55vw;
-      text-align: center;
-      height: 25vh;
-      
-    }
-    .nav img{margin-top: 6px;
-    width: 305px;
-    }
-    .nav p{
-        margin-top: 5px;;
-font-size: 24px;
-    }
-    .login-form{
-        position: relative;bottom:50px;
-    }
-    .lang-section,.line,.section-more{
-        width:80vw;
-    }
-    .lang-section span{
-        display: inline-block;
-        padding :1px;
-    }
+   
+   lang-section{
+    width: 100%;
+    
+   }
+
+   .lang-section {
+   width: auto;
+    width: fit-content;
+    padding: 10px 0px;
+    columns: 1;
+   }
+   .lang-section span{
+   flex-direction: row;
+     padding-left:20px;
+    
+     
+ 
+ }
+ 
+    
+.section-more{
+    columns: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
 }
