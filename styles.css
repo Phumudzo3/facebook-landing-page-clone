@@ -173,6 +173,11 @@ position: static;
     position: relative;
     bottom: 90px;
    }
+   .login-form form input{
+    width:100%;
+   
+   }
+   
    .footer{
     margin-top: 0px;
     background: pnk;
