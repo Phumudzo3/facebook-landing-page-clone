@@ -152,9 +152,10 @@ position: static;
     display: block;
     justify-content: center;
     width: 100%;
-    height: 120vh;
+    height: 80vh;
    
    } 
+   
 
    .nav{
     width: fit-content;
@@ -167,21 +168,32 @@ position: static;
    .nav img{
     margin-top: 2px;
    }
-   .login-form{
-    width: fit-content;
-    margin: auto;
-    position: relative;
-    bottom: 90px;
-   }
-   .login-form form input{
-    width:100%;
+  
+   .login-form form{
+    border: 1px solid white;
+width:360px ;
+background: white;
+height: 348px;
+border-radius: 6px;
+margin-top:55px;}
+
+   login-form form input{
+    width:325px;
    
    }
+   .log-in{
+    width:325px;
+   }
+   .create-new{
+   position: relative;
+   right: 30px;
+}
    
    .footer{
     margin-top: 0px;
-    background: pnk;
+    
 }
+
    
    .lang-section{
     width: 100%;
@@ -235,22 +247,32 @@ position: static;
             position: relative;
             bottom: 90px;
            }
+           .login-form input{
+            border-radius: 5px;
+         font-size: 17px;
+            padding: 14px 16px;
+            width:92%;
+            margin-left: 17px;
+            margin-top: 11px;
+        }
            .footer{
             margin-top: 0px;
             background: pnk;
         }
            
            .lang-section{
-            width: 100%;
+            width: 70%;
            }
            
         
            .lang-section {
-           width: auto;
-            width: fit-content;
-            padding: 10px 0px;
+     
+           
             columns: 1;
+         
+           background-color: #1b74e4;
            }
+           
            .lang-section span{
            flex-direction: row;
              padding-left:20px;
